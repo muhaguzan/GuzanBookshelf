@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bookshelf Apps</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper"></div>
+<header class="head_bar">
+  <h1 class="head_bar__title">Bookshelf Apps Muhaguzan</h1>
+</header>
+<section class="flexcontainer">
+<section class="profil">
+  <h2>Profil</h2>
+  <img src="img/fotogw.jpg" alt="">
+</section>
+<main>
+<div class="container">
+  <section class="input_section">
+    <h2>Masukkan Buku Baru</h2>
+    <form id="formbuku">
+      <div class="input">
+        <label for="inputjudul">Judul</label>
+        <input id="inputjudul" type="text" required>
+      </div>
+      <div class="input">
+        <label for="inputpenulis">Penulis</label>
+        <input id="inputpenulis" type="text" required>
+      </div>
+      <div class="input">
+        <label for="inputtahun">Tahun</label>
+        <input id="inputtahun" type="number" required>
+      </div>
+      <div class="input_inline">
+        <label for="inputtelahusai" id="inputtelahusailabel">Selesai dibaca</label>
+        <input id="inputtelahusai" type="checkbox">
+      </div>
+      <button id="submitBuku">Masuk</button>
+    </form>
+  </section>
+</div>
+
+  
+<section class="flexcontainer">
+  <section class="book_shelf">
+    <h2>Belum selesai dibaca</h2>
+    <div class="book_list">
+      <div id="belumusai" class="book_item">
+      </div>
+    </div>
+  </section>
+  
+  <section class="book_shelf">
+    <h2>Selesai dibaca</h2>
+    <div id="telahusai" class="book_list">
+    </div>
+  </section>
+</section>
+</main>
+</section>
+
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

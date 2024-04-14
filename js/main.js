@@ -223,9 +223,9 @@ function refreshDataFromList() {
   const listBelumSelesai = document.getElementById(IDListBelum);
   let listSelesai = document.getElementById(IDListSudah);
   for (book of list) {
-      const bukuBaru = buatListBaca(book.judul, book.penulis, book.tahun, book.selesai);
+      const bukuBaru = buatListBaca(book.title, book.author, book.year, book.isComplete);
       bukuBaru[ID_Buku] = book.id;
-      if (book.selesai) {
+      if (book.isComplete) {
           listSelesai.append(bukuBaru);
       } else {
           listBelumSelesai.append(bukuBaru);

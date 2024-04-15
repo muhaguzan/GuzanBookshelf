@@ -38,11 +38,15 @@ img {
   color: white;
 }
 
+.head_bar_title {
+  display: flex;
+  text-align: center;
+}
+
 main {
-  max-width: 800px;
-  width: 80%;
-  margin: 0 auto;
-  padding: 16px;
+  padding: 32px;
+  justify-content: center;
+  display: flex;
 }
 
 .wrapper {
@@ -119,6 +123,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
 }
 
 .profil {

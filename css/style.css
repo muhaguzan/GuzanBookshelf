@@ -23,6 +23,11 @@ img {
   object-fit: cover;
   border-radius: 2rem;
   width: 150px;
+  padding-bottom: 15px;
+}
+
+.profil p {
+  padding-bottom: 15px;
 }
 
 .profil h2 {
@@ -30,12 +35,11 @@ img {
 }
 
 .head_bar {
-  padding: 12px;
+  padding: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: darkblue;
-  color: white;
+  color: rgb(51, 65, 85);
 }
 
 .head_bar_title {
@@ -59,7 +63,7 @@ main {
 
 .input_section > h2 {
   text-align: center;
-  color: darkblue;
+  color: rgb(51, 65, 85);
 }
 
 .input_section > form > .input {
